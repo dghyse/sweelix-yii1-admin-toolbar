@@ -1,0 +1,26 @@
+{
+	"name" : "sweelix/yii1-admin-toolbar",
+	"description" : "PHP 5.4+ Sweelix CMS toolbar management",
+	"type" : "library",
+	"keywords" : [ "sweelix", "yii", "cms", "back office", "toolbar" ],
+	"license" : "BSD-3-Clause",
+	"authors" : [
+        {
+	        "name" : "Philippe Gaultier",
+		    "email" : "pgaultier@sweelix.net"
+	    },
+        {
+            "name" : "David Ghyse",
+            "email" : "dghyse@ibitux.com"
+        }
+    ],
+	"require" : {
+		"php" : ">=5.4.0",
+		"sweelix/yii1-admin-core" : "3.2.*"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"sweelix\\yii1\\admin\\toolbar\\" : ""
+		}
+	}
+}

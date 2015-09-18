@@ -1,0 +1,36 @@
+.module-toolbar {
+    background-image:url(../img/search@2x.png);
+    background-image:url(../img/search.png)\9;
+}
+#main section fieldset.hidden{
+    display: none;
+}
+#main section fieldset.container{
+    margin-bottom: 10px;
+    min-width: 860px;
+    width: 860px;
+}
+#main nav.toolbar {
+    min-width: 400px;
+    width: 400px;
+}
+#main nav.toolbar > ul {
+    width: 400px;
+}
+#main nav.toolbar > ul li a.btn-newItem.active {
+    background-color: #ffffff;
+    color: #0066cc;
+}
+#treemenu > nav.toolbar ul li a.action {
+    margin-left: 0px;
+}
+
+#main div.pagination {
+    text-align: center;
+}
+#textDescription textarea{
+    width: 400px;
+}
+#listToolbar tr.active {
+    background-color: #d8d8d8;
+}
