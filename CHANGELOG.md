@@ -1,6 +1,14 @@
 #Sweelix extension Toolbar
+
+2015-09-18 David Ghyse <dghyse@ibitux.com>
+Release 1.0.0
+
+- fix url detection error
+- Handle updating text to generate toolbar
+- Handle error in text generator
+- create text generator
+
 2015-03-04 David Ghyse <dghyse@ibitux.com>
-Release 1.4
 
 - update toolbar save item management
 - Create ItemInterface
@@ -16,20 +24,17 @@ Release 1.4
 
 
 2015-02-27 David Ghyse <dghyse@ibitux.com>
-Release 1.3
 
 - update url management in toolbar update
 - update build widget toolbar for distinct url
 
 
 2015-02-26 David Ghyse <dghyse@ibitux.com>
-Release 1.2
-    
+
 - replace array() by [] in models
 - wording in README.md file
 
 2015-02-25 David Ghyse <dghyse@ibitux.com>
-Release 1.1
 
 - create menu and drag and drop management
 - manage delete item
@@ -40,6 +45,5 @@ Release 1.1
 
 
 2015-02-24 David Ghyse <dghyse@ibitux.com>
-Release 1.0
 
 - create menu and drag and drop management
